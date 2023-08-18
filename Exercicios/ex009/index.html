@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+
+    <h1>Imagem dinamica</h1>
+    <p>Tente a brir esse site em varios dispositivos diferentes ou aumente e diminua o tamanho do seu naveegador</p>
+
+  <picture>
+    <source media="(max-width:750px)" srcset="imagens/pequena.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/Sem título.png" alt="imagem flexivel">
+  </picture>
+
+  <h1>Reproduzindo audio</h1>
+  <p>Vamos aprender a reproduizr audio no site</p>
+  <audio preload="metadata" autoplay controls>
+    <source src="midias/Charlie Brown Jr - Zóio de lula.m4a" type="audio/mpeg">
+    <source src="midias/Charlie Brown Jr - Zóio de lula (online-audio-converter.com).wav" type="audio/wav">
+    <source src="midias/Charlie Brown Jr - Zóio de lula (online-audio-converter.com).ogg" type="audio/ogg">
+    <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midias/Charlie Brown Jr - Zóio de lula.m4a">clique aqui para baixar o arquivo mp3</a></p>
+  </audio>
+    
+</body>
+</html>
